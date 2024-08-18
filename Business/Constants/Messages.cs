@@ -16,5 +16,6 @@ namespace Business.Constants
         public static string UserAlreadyExists = "Kullanıcı zaten var";
         public static string AccessTokenCreated = "Erişim jetonu oluşturuldu";
         public static string MovieUpdated = "Film vaşarıyla güncellendi";
+        public static string RatingsListed = "Puanlar listelendi";
     }
 }

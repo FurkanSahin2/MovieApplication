@@ -11,6 +11,7 @@ namespace Entities.Concrete
         public string MovieName { get; set; }
         public string Description { get; set; }
         public string TrailerUrl { get; set; }
+        // public int NumberOfStars { get; set; }
 
         // public int CoverImagePath { get; set; }
     }

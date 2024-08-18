@@ -19,5 +19,6 @@ namespace Core.Utilities.Results
         }
 
         public T Data { get; }
+        public string Title { get; }
     }
 }

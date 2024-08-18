@@ -23,6 +23,7 @@ namespace Business.Concrete
         {
             _movieDal = movieDal;
         }
+
         [CacheAspect]
         public IDataResult<List<Movie>> GetAll()
         {
@@ -107,7 +108,7 @@ namespace Business.Concrete
         }
 
         [TransactionScopeAspect]
-        public IResult AddTransactionalTest(Movie movie)
+        public IResult AddTransactionTest(Movie movie)
         {
             Add(movie);
 

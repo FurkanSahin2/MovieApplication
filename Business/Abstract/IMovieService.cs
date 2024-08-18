@@ -16,7 +16,7 @@ namespace Business.Abstract
 
         IResult Add(Movie movie);
         IResult Update(Movie movie);
-        IResult AddTransactionalTest(Movie movie);
+        IResult AddTransactionTest(Movie movie);
 
     }
 }
